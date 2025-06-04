@@ -1,18 +1,38 @@
+/* Fundo do site */
 body.bg-purple {
-  background-color: #1D062C; /* Use a cor do fundo do logo */
+  background-color: #1D062C;
 }
 
-
+/* Estilo dos cards */
 .custom-card {
   transition: transform 0.3s ease;
   border-radius: 12px;
+  background-color: #1D062C; /* Fundo igual ao site */
+  border: 2px solid #FF0000; /* Borda vermelha */
 }
 
 .custom-card:hover {
   transform: scale(1.03);
-  box-shadow: 0 0 12px #ffc107;
+  box-shadow: 0 0 12px #FF0000; /* Sombra vermelha ao passar o mouse */
 }
 
+.card-body {
+  background-color: #1D062C; /* Fundo interno do card */
+  color: #FFFFFF; /* Texto branco */
+}
+
+
+/* Estilo interno do card */
+.card-body {
+  background-color: #1D062C; /* Fundo interno do card */
+  color: #FFFFFF; /* Texto branco */
+}
+
+.card-title, .card-text {
+  color: #FFFFFF; /* Texto branco dentro do card */
+}
+
+/* Ajuste das imagens dentro dos cards */
 .card-img-top {
   height: 200px;
   object-fit: cover;
@@ -20,10 +40,49 @@ body.bg-purple {
   border-top-right-radius: 12px;
 }
 
+/* Navbar */
 .navbar .navbar-brand img {
   margin: 0 5px;
 }
 
-h1 img {
-  margin: 0 5px;
+/* Estilização de títulos e links */
+h1, .nav-link, .dropdown-item {
+  color: #FFFFFF !important; /* Texto branco */
+}
+.dropdown-menu {
+  background-color: #1D062C; /* Mesmo fundo do site */
+  border: 2px solid #FF0000; /* Borda vermelha para destacar */
+}
+
+.dropdown-menu .dropdown-item {
+  color: #FFFFFF !important; /* Mantém as letras brancas */
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: #FF0000; /* Fundo vermelho ao passar o mouse */
+  color: #FFFFFF; /* Mantém o texto branco */
+}
+
+
+/* Estilo dos botões */
+.btn-warning {
+  background-color: #FF0000; /* Botões vermelhos */
+  border-color: #FF0000;
+  color: #FFFFFF; /* Texto branco */
+}
+
+.btn-warning:hover {
+  background-color: #CC0000; /* Tom mais escuro ao passar o mouse */
+  border-color: #CC0000;
+}
+
+.btn-danger {
+  background-color: #FF0000; /* Vermelho */
+  border-color: #FF0000;
+  color: #FFFFFF; /* Texto branco */
+}
+
+.btn-danger:hover {
+  background-color: #CC0000; /* Tom mais escuro ao passar o mouse */
+  border-color: #CC0000;
 }
