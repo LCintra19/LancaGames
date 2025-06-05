@@ -86,3 +86,47 @@ h1, .nav-link, .dropdown-item {
   background-color: #CC0000; /* Tom mais escuro ao passar o mouse */
   border-color: #CC0000;
 }
+
+.list-group-item:hover {
+  background-color: #1D062C;
+  color: #FF0000;
+  transition: 0.3s ease;
+}
+/* Estilização do widget de notícias */
+.bg-purple {
+  background-color: #1D062C !important;
+}
+
+.list-group-item {
+  background-color: #1D062C;
+  color: #FFFFFF;
+  border-left: 4px solid #FF0000;
+  transition: 0.3s ease;
+}
+
+.list-group-item:hover {
+  background-color: #2A083D;
+  color: #FF0000;
+  border-left: 4px solid #FF0000;
+}
+footer {
+  background-color: #1D062C;
+  border-top: 2px solid #FF0000;
+}
+
+.social-link:hover {
+  color: #FF0000;
+  transition: 0.3s ease;
+}
+.social-link:hover {
+  color: #FF0000;
+  transition: 0.3s ease;
+}
+
+.text-center mb-4{
+  color: #FF0000;
+}
+
+.text-vermelho {
+  color: #FF0000;
+}
